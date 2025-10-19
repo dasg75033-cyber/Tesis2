@@ -136,9 +136,13 @@ body.dark-mode .sidebar {
 }
 
 body.dark-mode select,
-body.dark-mode input,
-body.dark-mode button {
+body.dark-mode input {
   background: #2c2c2c;
+  color: #eee;
+}
+
+body.dark-mode button {
+  background: #1a6b5c;
   color: #eee;
 }
 
@@ -148,11 +152,10 @@ body.dark-mode .map-holder {
 
 body.dark-mode .qr-panel {
   background: #1a1a1a;
-  border-color: #00b803;
+  border-color: #333;
 }
 
 body.dark-mode .qr-holder {
   background: #2a2a2a;
-  border-color: #00b803;
+  border-color: #444;
 }
-
